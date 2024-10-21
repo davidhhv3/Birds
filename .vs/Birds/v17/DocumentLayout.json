@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\4.birdsinfrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Program.cs",
+              "RelativeDocumentMoniker": "1.BirdsApi\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Program.cs",
+              "RelativeToolTip": "1.BirdsApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:54:40.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Class1.cs",
+              "RelativeToolTip": "4.BirdsInfrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:51:57.222Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

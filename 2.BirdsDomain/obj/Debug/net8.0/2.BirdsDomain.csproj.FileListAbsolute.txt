@@ -1,0 +1,11 @@
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\bin\Debug\net8.0\2.BirdsDomain.deps.json
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\bin\Debug\net8.0\2.BirdsDomain.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\bin\Debug\net8.0\2.BirdsDomain.pdb
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.AssemblyInfo.cs
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\refint\2.BirdsDomain.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.pdb
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\ref\2.BirdsDomain.dll
