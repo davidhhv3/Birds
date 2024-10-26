@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Data\\Configurations\\SecurityConfiguration.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Data\\Configurations\\SecurityConfiguration.cs",
               "RelativeToolTip": "4.BirdsInfrastructure\\Data\\Configurations\\SecurityConfiguration.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwAcAAAARAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T00:15:36.722Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "4.BirdsInfrastructure\\Mappings\\AutomapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T00:08:29.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T00:08:29.144Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "1.BirdsApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T00:03:34.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T00:03:34.05Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T23:56:52.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T23:56:52.357Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "1.BirdsApi\\appsettings.json",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T23:55:25.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T23:55:25.15Z"
             }
           ]
         }

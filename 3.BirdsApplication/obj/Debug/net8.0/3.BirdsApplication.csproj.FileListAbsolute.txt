@@ -1,0 +1,16 @@
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\bin\Debug\net8.0\3.BirdsApplication.deps.json
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\bin\Debug\net8.0\3.BirdsApplication.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\bin\Debug\net8.0\3.BirdsApplication.pdb
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\bin\Debug\net8.0\2.BirdsDomain.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\bin\Debug\net8.0\2.BirdsDomain.pdb
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.AssemblyInfo.cs
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.sourcelink.json
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsA.4AC282CB.Up2Date
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\refint\3.BirdsApplication.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\3.BirdsApplication.pdb
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\3.BirdsApplication\obj\Debug\net8.0\ref\3.BirdsApplication.dll
