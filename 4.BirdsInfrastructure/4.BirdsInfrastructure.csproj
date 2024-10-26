@@ -7,4 +7,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.9.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2.BirdsDomain\2.BirdsDomain.csproj" />
+    <ProjectReference Include="..\3.BirdsApplication\3.BirdsApplication.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2.BirdsDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7a58c1bbf9957dd9a505e71737e17fe36244fd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("2.BirdsDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2.BirdsDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,3 +9,4 @@ C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\refint\2.BirdsDomain.dll
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.pdb
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\ref\2.BirdsDomain.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\2.BirdsDomain\obj\Debug\net8.0\2.BirdsDomain.sourcelink.json

@@ -4,14 +4,14 @@
     "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj": {
+    "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj",
-        "projectName": "4.BirdsInfrastructure",
-        "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj",
+        "projectName": "2.BirdsDomain",
+        "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,169 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj",
+        "projectName": "3.BirdsApplication",
+        "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj",
+        "projectName": "4.BirdsInfrastructure",
+        "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj"
+              },
+              "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

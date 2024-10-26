@@ -1,6 +1,13 @@
+using _4.BirdsInfrastructure.Extensions;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddOptions(builder.Configuration);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddDbContexts(builder.Configuration);
+builder.Services.AddServices();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
