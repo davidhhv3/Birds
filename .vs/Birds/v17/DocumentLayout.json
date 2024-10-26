@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\4.birdsinfrastructure\\data\\configurations\\securityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\data\\configurations\\securityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\4.birdsinfrastructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\1.birdsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\4.birdsinfrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\1.birdsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\1.birdsapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AF02597-22B0-4B4C-A989-0316378E5BCB}|3.BirdsApplication\\3.BirdsApplication.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\3.birdsapplication\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AF02597-22B0-4B4C-A989-0316378E5BCB}|3.BirdsApplication\\3.BirdsApplication.csproj|solutionrelative:3.birdsapplication\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A295283-8E48-4869-AB8D-5ED2DC586D62}|2.BirdsDomain\\2.BirdsDomain.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\2.birdsdomain\\interfaces\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A295283-8E48-4869-AB8D-5ED2DC586D62}|2.BirdsDomain\\2.BirdsDomain.csproj|solutionrelative:2.birdsdomain\\interfaces\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\4.birdsinfrastructure\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\repositories\\securityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A295283-8E48-4869-AB8D-5ED2DC586D62}|2.BirdsDomain\\2.BirdsDomain.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\2.birdsdomain\\interfaces\\isecurityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A295283-8E48-4869-AB8D-5ED2DC586D62}|2.BirdsDomain\\2.BirdsDomain.csproj|solutionrelative:2.birdsdomain\\interfaces\\isecurityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A295283-8E48-4869-AB8D-5ED2DC586D62}|2.BirdsDomain\\2.BirdsDomain.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\2.birdsdomain\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A295283-8E48-4869-AB8D-5ED2DC586D62}|2.BirdsDomain\\2.BirdsDomain.csproj|solutionrelative:2.birdsdomain\\entities\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +51,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SecurityConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Data\\Configurations\\SecurityConfiguration.cs",
-              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Data\\Configurations\\SecurityConfiguration.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Data\\Configurations\\SecurityConfiguration.cs",
-              "RelativeToolTip": "4.BirdsInfrastructure\\Data\\Configurations\\SecurityConfiguration.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwC4AAAAAAAAA",
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "1.BirdsApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "1.BirdsApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T00:15:36.722Z",
+              "WhenOpened": "2024-10-26T19:54:41.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AutomapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Mappings\\AutomapperProfile.cs",
-              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Mappings\\AutomapperProfile.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Mappings\\AutomapperProfile.cs",
-              "RelativeToolTip": "4.BirdsInfrastructure\\Mappings\\AutomapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T00:08:29.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Program.cs",
               "RelativeDocumentMoniker": "1.BirdsApi\\Program.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Program.cs",
               "RelativeToolTip": "1.BirdsApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T00:03:34.05Z"
+              "WhenOpened": "2024-10-26T19:44:20.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T23:56:52.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\appsettings.json",
               "RelativeDocumentMoniker": "1.BirdsApi\\appsettings.json",
               "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\appsettings.json",
               "RelativeToolTip": "1.BirdsApi\\appsettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T23:55:25.15Z"
+              "WhenOpened": "2024-10-26T19:43:59.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "1.BirdsApi\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "1.BirdsApi\\Controllers\\TokenController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:42:15.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SecurityService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\Services\\SecurityService.cs",
+              "RelativeDocumentMoniker": "3.BirdsApplication\\Services\\SecurityService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\Services\\SecurityService.cs",
+              "RelativeToolTip": "3.BirdsApplication\\Services\\SecurityService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:30:05.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISecurityService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\Interfaces\\ISecurityService.cs",
+              "RelativeDocumentMoniker": "2.BirdsDomain\\Interfaces\\ISecurityService.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\Interfaces\\ISecurityService.cs",
+              "RelativeToolTip": "2.BirdsDomain\\Interfaces\\ISecurityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:28:53.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SecurityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Repositories\\SecurityRepository.cs",
+              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Repositories\\SecurityRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\Repositories\\SecurityRepository.cs",
+              "RelativeToolTip": "4.BirdsInfrastructure\\Repositories\\SecurityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:36:32.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISecurityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\Interfaces\\ISecurityRepository.cs",
+              "RelativeDocumentMoniker": "2.BirdsDomain\\Interfaces\\ISecurityRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\Interfaces\\ISecurityRepository.cs",
+              "RelativeToolTip": "2.BirdsDomain\\Interfaces\\ISecurityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:36:02.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\Entities\\UserLogin.cs",
+              "RelativeDocumentMoniker": "2.BirdsDomain\\Entities\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\Entities\\UserLogin.cs",
+              "RelativeToolTip": "2.BirdsDomain\\Entities\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:29:33.028Z",
+              "EditorCaption": ""
             }
           ]
         }

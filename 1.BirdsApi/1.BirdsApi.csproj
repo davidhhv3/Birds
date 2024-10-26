@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\2.BirdsDomain\2.BirdsDomain.csproj" />
     <ProjectReference Include="..\3.BirdsApplication\3.BirdsApplication.csproj" />
     <ProjectReference Include="..\4.BirdsInfrastructure\4.BirdsInfrastructure.csproj" />

@@ -1,7 +1,10 @@
+using _2.BirdsDomain.Enumerations;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _1.BirdsApi.Controllers
 {
+    [Authorize(Roles = nameof(RoleType.Administrator))]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
