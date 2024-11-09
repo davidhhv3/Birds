@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace _1.BirdsApi.Controllers
 {
+    
     [Authorize(Roles = nameof(RoleType.Administrator))]
     [ApiController]
     [Route("[controller]")]

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZNe5vCft6/8=",
+  "dgSpecHash": "2vTv5ovfaYM=",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

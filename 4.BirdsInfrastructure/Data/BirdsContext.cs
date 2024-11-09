@@ -12,6 +12,7 @@ namespace _4.BirdsInfrastructure.Data
         {
         }
         public virtual DbSet<Security> Security { get; set; }
+        public virtual DbSet<Country> Country { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

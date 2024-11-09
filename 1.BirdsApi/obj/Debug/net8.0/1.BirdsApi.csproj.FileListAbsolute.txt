@@ -84,3 +84,6 @@ C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\ne
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

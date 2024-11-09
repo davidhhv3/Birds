@@ -7,6 +7,7 @@ namespace _4.BirdsInfrastructure.Repositories
     {
         private readonly BirdsContext _context;
         private readonly ISecurityRepository? _securityRepository;
+        private readonly ICountryRepository? _countryRepository;
 
         public UnitOfWork(BirdsContext context)
         {
@@ -14,6 +15,7 @@ namespace _4.BirdsInfrastructure.Repositories
         }
     
         public ISecurityRepository SecurityRepository => _securityRepository ?? new SecurityRepository(_context);
+        public ICountryRepository CountryRepository => _countryRepository ?? new CountryRepository(_context);
 
         public void Dispose()
         {

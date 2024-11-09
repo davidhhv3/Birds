@@ -9,6 +9,7 @@ namespace _4.BirdsInfrastructure.Mappings
         public AutomapperProfile()
         {         
             CreateMap<Security, SecurityDto>().ReverseMap();
+            CreateMap<Country, CountryDto>().ReverseMap();
         }
     }
 }

@@ -11,10 +11,10 @@ namespace _4.BirdsInfrastructure.Data.Configurations
         {
             builder.ToTable("Seguridad");
 
-            builder.HasKey(e => e.Id);
+            //builder.HasKey(e => e.Id);
 
-            builder.Property(e => e.Id)
-                .HasColumnName("IdSeguridad");
+            //builder.Property(e => e.Id)
+            //    .HasColumnName("IdSeguridad");
 
             builder.Property(e => e.User)
                 .HasColumnName("Usuario")
