@@ -5,7 +5,6 @@ using _2.BirdsDomain.Interfaces;
 using _2.BirdsDomain.QueryFilters;
 using _3.BirdsApplication.DTOs;
 using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -38,11 +37,11 @@ namespace _1.BirdsApi.Controllers
             IEnumerable<CountryDto> countryDto = _mapper.Map<IEnumerable<CountryDto>>(countries);
             Metadata metadata = new Metadata
             {
-                TotalCount =      countries.TotalCount,
-                PageSize =        countries.PageSize,
-                CurrentPage =     countries.CurrentPage,
-                TotalPages =      countries.TotalPages,
-                HasNextPage =     countries.HasNextPage,
+                TotalCount = countries.TotalCount,
+                PageSize = countries.PageSize,
+                CurrentPage = countries.CurrentPage,
+                TotalPages = countries.TotalPages,
+                HasNextPage = countries.HasNextPage,
                 HasPreviousPage = countries.HasPreviousPage,
             };
             ApiResponse<IEnumerable<CountryDto>> response = new ApiResponse<IEnumerable<CountryDto>>(countryDto)

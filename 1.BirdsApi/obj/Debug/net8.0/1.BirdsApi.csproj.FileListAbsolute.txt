@@ -87,3 +87,7 @@ C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\ne
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\USER\Documents\Estudios\Proyectos\Backend\Birds\1.BirdsApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

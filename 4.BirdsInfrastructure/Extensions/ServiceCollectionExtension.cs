@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 
 namespace _4.BirdsInfrastructure.Extensions
 {
@@ -45,6 +46,27 @@ namespace _4.BirdsInfrastructure.Extensions
             services
                 .AddFluentValidationAutoValidation()
                 .AddValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
+            return services;
+        }
+        public static IServiceCollection AddSwaggerConfig(this IServiceCollection services, string xmlFile)
+        {
+            services.AddSwaggerGen(doc =>
+            {
+                doc.SwaggerDoc("v1", new OpenApiInfo { Title = "Clothing Store Api", Version = "v1" });
+                string xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                doc.IncludeXmlComments(xmlPath);
+                doc.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = @"JWT Authorization header using the Bearer scheme. \r\n\r\n 
+                                  Enter 'Bearer' [space] and then your token in the text input below.
+                                  \r\n\r\nExample: 'Bearer 12345abcdef'",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+                doc.OperationFilter<AuthOperationFilter>();
+            });
             return services;
         }
         public static IApplicationBuilder UseSwaggerWithUI(this IApplicationBuilder app)

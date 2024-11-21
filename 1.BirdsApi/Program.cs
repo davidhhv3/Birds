@@ -1,12 +1,21 @@
 using _4.BirdsInfrastructure.Extensions;
+using _4.BirdsInfrastructure.Filters;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using System.Reflection;
 using System.Text;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<GlobalExceptionFilter>();
+});
+
+
 builder.Services.AddOptions(builder.Configuration);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddDbContexts(builder.Configuration);
@@ -34,7 +43,7 @@ builder.Services.AddValidators();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerConfig($"{Assembly.GetExecutingAssembly().GetName().Name}.xml");
 
 var app = builder.Build();
 
