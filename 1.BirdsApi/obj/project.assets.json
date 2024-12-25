@@ -3356,11 +3356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\1.BirdsApi.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\1.BirdsApi\\1.BirdsApi.csproj",
       "projectName": "1.BirdsApi",
-      "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\1.BirdsApi.csproj",
+      "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\1.BirdsApi\\1.BirdsApi.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\1.BirdsApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3378,14 +3378,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj": {
-              "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj"
+            "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj"
             },
-            "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj": {
-              "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj"
+            "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\3.BirdsApplication\\3.BirdsApplication.csproj"
             },
-            "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj": {
-              "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj"
+            "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj": {
+              "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj"
             }
           }
         }

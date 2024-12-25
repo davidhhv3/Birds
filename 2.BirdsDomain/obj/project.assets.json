@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj",
       "projectName": "2.BirdsDomain",
-      "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj",
+      "projectPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\2.BirdsDomain\\2.BirdsDomain.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\2.BirdsDomain\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\2.BirdsDomain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FA3EF00-558B-48C7-8506-D517D8F230A4}|Birds.Test\\Birds.Test.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\birds.test\\controllertests\\countrycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA3EF00-558B-48C7-8506-D517D8F230A4}|Birds.Test\\Birds.Test.csproj|solutionrelative:birds.test\\controllertests\\countrycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos.net\\backend\\birds\\4.birdsinfrastructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\1.birdsapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA3EF00-558B-48C7-8506-D517D8F230A4}|Birds.Test\\Birds.Test.csproj|c:\\users\\user\\documents\\estudios\\proyectos\\backend\\birds\\birds.test\\helpers\\controllertestshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FA3EF00-558B-48C7-8506-D517D8F230A4}|Birds.Test\\Birds.Test.csproj|solutionrelative:birds.test\\helpers\\controllertestshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos.net\\backend\\birds\\1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CountryController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Controllers\\CountryController.cs",
-              "RelativeDocumentMoniker": "1.BirdsApi\\Controllers\\CountryController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\Controllers\\CountryController.cs",
-              "RelativeToolTip": "1.BirdsApi\\Controllers\\CountryController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAwwFIAAAAYAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\1.BirdsApi\\Program.cs",
+              "RelativeDocumentMoniker": "1.BirdsApi\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\1.BirdsApi\\Program.cs",
+              "RelativeToolTip": "1.BirdsApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T19:43:17.346Z",
+              "WhenOpened": "2024-12-25T20:56:20.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CountryControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\Birds.Test\\ControllerTests\\CountryControllerTests.cs",
-              "RelativeDocumentMoniker": "Birds.Test\\ControllerTests\\CountryControllerTests.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\Birds.Test\\ControllerTests\\CountryControllerTests.cs",
-              "RelativeToolTip": "Birds.Test\\ControllerTests\\CountryControllerTests.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAIwHYAAAAOAAAA",
+              "Title": "GlobalExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeToolTip": "4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T19:42:56.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ControllerTestsHelpers.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\Birds.Test\\Helpers\\ControllerTestsHelpers.cs",
-              "RelativeDocumentMoniker": "Birds.Test\\Helpers\\ControllerTestsHelpers.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\Birds.Test\\Helpers\\ControllerTestsHelpers.cs",
-              "RelativeToolTip": "Birds.Test\\Helpers\\ControllerTestsHelpers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T19:51:31.91Z",
+              "WhenOpened": "2024-12-25T20:44:50.69Z",
               "EditorCaption": ""
             }
           ]

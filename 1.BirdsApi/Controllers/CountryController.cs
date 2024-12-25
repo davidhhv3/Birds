@@ -59,8 +59,9 @@ namespace _1.BirdsApi.Controllers
         [HttpGet("GetCountry/{id}")]
         [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(ApiResponse<CountryDto>))]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        
         public async Task<IActionResult> GetCountry(int id)
-        {
+        {            
             Country? country = await _countryService.GetCountry(id);
             CountryDto countryDto = _mapper.Map<CountryDto>(country);
             ApiResponse<CountryDto> response = new ApiResponse<CountryDto>(countryDto);

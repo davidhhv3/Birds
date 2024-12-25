@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G45Gs3S39uA=",
+  "dgSpecHash": "2Hf/ccCRo9o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos\\Backend\\Birds\\1.BirdsApi\\1.BirdsApi.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\1.BirdsApi\\1.BirdsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
