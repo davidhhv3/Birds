@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClothingStore.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ClothingStore.Api.Controllers.ClientController.GetClients(ClothingStore.Core.QueryFilters.ClientQueryFilter)">
+            <summary>
+            Retrieve all clients
+            </summary>
+            <param name="filters">Filters to apply</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.ClientController.GetClientsBycountry(ClothingStore.Core.QueryFilters.ClientQueryFilter,System.Int32)">
+            <summary>
+            Retrieve all clients by country
+            </summary>
+            <param name="filters">Filters to apply</param>
+            /// <param name="countryId">Country ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.ClientController.GetClient(System.Int32)">
+            <summary>
+            Retrieve client
+            </summary>
+            <param name="id">The ID of the client to retrieve</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.ClientController.CreateClient(ClothingStore.Core.Entities.Client)">
+            <summary>
+            Create a new client
+            </summary>
+            <param name="client">Client data</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.ClientController.UpdateClient(System.Int32,ClothingStore.Core.DTOs.ClientDto)">
+            <summary>
+            Update a client
+            </summary>   
+            <param name="id">The ID of the client to update</param>
+            <param name="clientDto">Updated client data</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.ClientController.DeleteClient(System.Int32)">
+            <summary>
+            Delete a client by ID
+            </summary>    
+            <param name="id">The ID of the client to delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.CountryController.GetCountries(ClothingStore.Core.QueryFilters.CountryQueryFilter)">
+            <summary>
+            Retrieve all countries
+            </summary>
+            <param name="filters">Filters to apply</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.CountryController.GetCountry(System.Int32)">
+            <summary>
+            Retrieve country
+            </summary>
+            <param name="id">The ID of the country to retrieve</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.CountryController.CreateCountry(ClothingStore.Core.DTOs.CountryDto)">
+            <summary>
+            Create a new country
+            </summary>
+            <param name="countryDto">Country data</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.CountryController.UpdateCountry(System.Int32,ClothingStore.Core.DTOs.CountryDto)">
+            <summary>
+            Update a country
+            </summary>   
+            <param name="id">The ID of the country to update</param>
+            <param name="countryDto">Updated country data</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.CountryController.DeleteCountry(System.Int32)">
+            <summary>
+            Delete a country by ID
+            </summary>    
+            <param name="id">The ID of the country to delete</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.SecurityController.Post(ClothingStore.Core.DTOs.SecurityDto)">
+            <summary>
+            Create a new security user
+            </summary>    
+            <param name="securityDto">Security user data</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClothingStore.Api.Controllers.TokenController.Authentication(ClothingStore.Core.Entities.UserLogin)">
+            <summary>
+            Authenticate a user
+            </summary>    
+            <param name="login">User login data</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

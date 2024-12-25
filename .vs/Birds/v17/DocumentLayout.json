@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos.net\\backend\\birds\\4.birdsinfrastructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos.net\\backend\\birds\\4.birdsinfrastructure\\data\\configurations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\data\\configurations\\countryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|c:\\users\\user\\documents\\estudios\\proyectos.net\\backend\\birds\\1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01C86018-6844-4F41-AA71-99F7EDA6D6F6}|1.BirdsApi\\1.BirdsApi.csproj|solutionrelative:1.birdsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|c:\\users\\user\\documents\\estudios\\proyectos.net\\backend\\birds\\4.birdsinfrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C99A61F-3B69-453B-928B-24FF57516755}|4.BirdsInfrastructure\\4.BirdsInfrastructure.csproj|solutionrelative:4.birdsinfrastructure\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Data\\Configurations\\CountryConfiguration.cs",
+              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Data\\Configurations\\CountryConfiguration.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Data\\Configurations\\CountryConfiguration.cs",
+              "RelativeToolTip": "4.BirdsInfrastructure\\Data\\Configurations\\CountryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T21:17:27.152Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,23 +45,21 @@
               "RelativeDocumentMoniker": "1.BirdsApi\\Program.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\1.BirdsApi\\Program.cs",
               "RelativeToolTip": "1.BirdsApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T20:56:20.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T21:14:09.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GlobalExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeToolTip": "4.BirdsInfrastructure\\Filters\\GlobalExceptionFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "DocumentIndex": 2,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Estudios\\Proyectos.Net\\Backend\\Birds\\4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "4.BirdsInfrastructure\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwEcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T20:44:50.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T21:13:26.897Z"
             }
           ]
         }

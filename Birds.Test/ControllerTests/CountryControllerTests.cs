@@ -1,0 +1,154 @@
+﻿using _1.BirdsApi.Controllers;
+using _1.BirdsApi.Responses;
+using _2.BirdsDomain.CustomEntities;
+using _2.BirdsDomain.Entities;
+using _2.BirdsDomain.Interfaces;
+using _2.BirdsDomain.QueryFilters;
+using _3.BirdsApplication.DTOs;
+using _3.BirdsApplication.Services;
+using AutoMapper;
+using Birds.Test.Helpers;
+using Microsoft.AspNetCore.Mvc;
+using Moq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Birds.Test.ControllerTests
+{
+    public class CountryControllerTests
+    {
+        private readonly Mock<ICountryService> mockCountryService;
+        private readonly Mock<IMapper> mapperMock;
+        private readonly CountryController controller;
+        private readonly CountryDto countryDto;
+        private readonly Country country;
+
+        public CountryControllerTests()
+        {
+            mockCountryService = new Mock<ICountryService>();
+            mapperMock = new Mock<IMapper>();
+            controller = new CountryController(mockCountryService.Object, mapperMock.Object);
+            countryDto = new CountryDto { NameCountry = "Test Country" };
+            country = new Country { NameCountry = "Test Country" };
+        }
+
+        [Fact]
+        public async Task GetCountry_ReturnsCountryDto()
+        {
+            ApiResponse<CountryDto> expectedApiResponse = new ApiResponse<CountryDto>(countryDto);
+            mockCountryService.Setup(s => s.GetCountry(1)).ReturnsAsync(country);
+            mapperMock.Setup(m => m.Map<CountryDto>(country)).Returns(countryDto);
+
+            IActionResult actionResult = await controller.GetCountry(1);
+            OkObjectResult okResult = (OkObjectResult)actionResult;
+            ApiResponse<CountryDto> returnedApiResponse = Assert.IsType<ApiResponse<CountryDto>>(okResult.Value);
+
+            mockCountryService.Verify(service => service.GetCountry(1), Times.Once);
+            ControllerTestsHelpers.checkResponseApi(okResult, returnedApiResponse, expectedApiResponse);
+        }
+        [Fact]
+        public async Task GetCountries_ReturnsCountriesDto()
+        {
+            Country[] countries = new[]
+             {
+                new Country{ Id = 1, NameCountry = "Pais 1" },
+                new Country{ Id = 2, NameCountry = "Pais 2" },
+                new Country{ Id = 3, NameCountry = "Pais 3" },
+             };
+            IEnumerable<CountryDto> countriesDto = new[]
+            {
+                new CountryDto{ NameCountry = "Pais 1" },
+                new CountryDto{ NameCountry = "Pais 2" },
+                new CountryDto{ NameCountry = "Pais 3" },
+            };
+            Metadata metadata = new Metadata
+            {
+                TotalCount = 3,
+                PageSize = 3,
+                CurrentPage = 1,
+                TotalPages = 1,
+                HasNextPage = false,
+                HasPreviousPage = false
+            };
+            ApiResponse<IEnumerable<CountryDto>> expectedApiResponse = new ApiResponse<IEnumerable<CountryDto>>(countriesDto)
+            {
+                Meta = metadata
+            };
+
+            QueryFilter filters = new QueryFilter
+            {
+                PageSize = 3,
+                PageNumber = 1
+            };
+
+            PagedList<Country> pageListServcieResponse = PagedList<Country>.Create(countries, filters.PageNumber, filters.PageSize);
+            mockCountryService.Setup(s => s.GetCountries(filters)).ReturnsAsync(pageListServcieResponse);
+            mapperMock.Setup(m => m.Map<IEnumerable<CountryDto>>(pageListServcieResponse)).Returns(countriesDto);
+
+            IActionResult actionResult = await controller.GetCountries(filters);
+            OkObjectResult okResult = (OkObjectResult)actionResult;
+
+            ApiResponse<IEnumerable<CountryDto>> returnedApiResponse = Assert.IsType<ApiResponse<IEnumerable<CountryDto>>>(okResult.Value);
+
+            Assert.Equal(expectedApiResponse.Data, returnedApiResponse.Data);
+            var properties = typeof(Metadata).GetProperties();
+            for (int i = 0; i < properties.Length; i++)
+                Assert.Equal(properties[i].GetValue(expectedApiResponse.Meta), properties[i].GetValue(returnedApiResponse.Meta));
+            Assert.IsType<ApiResponse<IEnumerable<CountryDto>>>(returnedApiResponse);
+        }
+        [Fact]
+        public async Task CreateCountry_returnCountryDto()
+        {
+            // Arrange 
+            ApiResponse<CountryDto> expectedApiResponse = new ApiResponse<CountryDto>(countryDto);
+            mapperMock.Setup(m => m.Map<Country>(countryDto)).Returns(country);
+            mapperMock.Setup(m => m.Map<CountryDto>(country)).Returns(countryDto);
+
+            // Act   
+            IActionResult actionResult = await controller.CreateCountry(countryDto);
+            OkObjectResult okResult = (OkObjectResult)actionResult;
+            ApiResponse<CountryDto> returnedApiResponse = Assert.IsType<ApiResponse<CountryDto>>(okResult.Value);
+
+            // Assert
+            mockCountryService.Verify(service => service.InsertCountry(country), Times.Once);
+            ControllerTestsHelpers.checkResponseApi(okResult, returnedApiResponse, expectedApiResponse);
+        }
+        [Fact]
+        public async Task UpdateCountry_ReturnTrue()
+        {
+            // Arrange      
+            ApiResponse<bool> expectedApiResponse = new ApiResponse<bool>(true);
+            mockCountryService.Setup(service => service.UpdateCountry(country)).ReturnsAsync(true);
+            mapperMock.Setup(m => m.Map<Country>(countryDto)).Returns(country);
+
+            // Act
+            var result = await controller.UpdateCountry(1, countryDto);
+            OkObjectResult okResult = result as OkObjectResult ?? throw new ArgumentNullException(nameof(result));
+            ApiResponse<bool> returnedApiResponse = Assert.IsType<ApiResponse<bool>>(okResult.Value);
+
+            //Assert
+            mockCountryService.Verify(service => service.UpdateCountry(country), Times.Once);
+            ControllerTestsHelpers.checkResponseApi(okResult, returnedApiResponse, expectedApiResponse);
+        }
+        [Fact]
+        public async Task DeleteCountry_ReturnTrue()
+        {
+            // Arrange
+            ApiResponse<bool> expectedApiResponse = new ApiResponse<bool>(true);
+            mockCountryService.Setup(service => service.DeleteCountry(1)).ReturnsAsync(true);
+
+            // Act
+            var result = await controller.DeleteCountry(1);
+            OkObjectResult okResult = result as OkObjectResult ?? throw new ArgumentNullException(nameof(result));
+            ApiResponse<bool> returnedApiResponse = Assert.IsType<ApiResponse<bool>>(okResult.Value);
+
+            // Assert
+            mockCountryService.Verify(service => service.DeleteCountry(1), Times.Once);
+            ControllerTestsHelpers.checkResponseApi(okResult, returnedApiResponse, expectedApiResponse);
+        }
+
+    }
+}
